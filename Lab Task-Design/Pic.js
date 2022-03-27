@@ -59,13 +59,6 @@ const styles = StyleSheet.create({
   spce: {
     marginTop: 18,
   },
-  text1: {
-    marginTop: 20,
-    alignContent: "center",
-    fontSize: 12,
-    textAlign: "center",
-    color: "black",
-  },
   container: {
     height: 390,
     width: 320,
@@ -77,7 +70,7 @@ const styles = StyleSheet.create({
     height: 350,
     width: 300,
   },
-  Button: {
+  Button1: {
     marginLeft: 20,
     fontSize: 18,
     width: 155,
@@ -89,7 +82,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     lineHeight: 55,
   },
-  Button1: {
+  Button: {
     fontSize: 18,
     width: 120,
     lineHeight: 55,
@@ -100,4 +93,11 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 15,
     backgroundColor: "#f8f8ff",
   },
+  text1: {
+    marginTop: 20,
+    alignContent: "center",
+    fontSize: 12,
+    textAlign: "center",
+    color: "black",
+  }
 });
