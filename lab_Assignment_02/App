@@ -1,0 +1,9 @@
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View, Image } from "react-native";
+import ButtonStyle from "./Components/ButtonStyle";
+import LoginInterface from "./Components/LoginInterface";
+
+const flex = () => {
+  return <LoginInterface></LoginInterface>;
+};
+export default flex;
